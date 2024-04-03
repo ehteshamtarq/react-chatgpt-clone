@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors());
 app.listen(PORT, ()=> console.log('Your server is running on PORT '+PORT));
 
-const API_KEY = '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';
+const API_KEY = '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';
 app.post('/completions', async (req, res)=>{
     const options ={
         method:"POST",
