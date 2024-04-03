@@ -31,7 +31,7 @@ function App() {
 
       const response = await fetch('https://react-chatgpt-clone-1.onrender.com/completions', options);
       const data = await response.json();
-      // console.log(data);
+      console.log(data);
       setMessage(data.choices[0].message);
     }catch(error){
       console.log(error);
